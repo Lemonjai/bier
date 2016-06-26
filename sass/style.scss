@@ -1,0 +1,62 @@
+@font-face{
+  font-family: PWChalk;
+  src:  url("../fonts/PWChalk.ttf");
+}
+
+$white: white;
+
+*{
+  box-sizing: border-box;
+  font-family: PWChalk;
+}
+
+.container{
+  padding: 2.5em 5%;
+
+  #main_navigation{
+
+    nav{
+      padding-top: 5rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    nav a{
+      color: $white;
+      text-decoration: none;
+      margin: 0 5.5rem;
+      font-size: 2rem;
+    }
+  }
+
+  #main_content{
+    h1{
+      text-align: center;
+      font-size: 4.5rem;
+      color: $white;
+      margin-top: 6.5rem;
+      text-transform: uppercase; 
+    }
+  }
+
+  footer{
+    #copyright{
+      text-align: center;
+      color: $white;
+    }
+    #social_media{
+      text-align: right;
+      color: $white;
+    }
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: lightblue;
+  }
+}
